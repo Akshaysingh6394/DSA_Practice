@@ -9,7 +9,7 @@ public class revmul {
             int rem = temp%10;
             rev = rev*10+rem;
             temp /= 10;
-
+// reverse
 
         }
         System.out.println(rev);
