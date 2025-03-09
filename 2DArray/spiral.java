@@ -9,11 +9,11 @@ public class spiral {
         
         while(startRow<=endRow && startCol<=endCol){
             //TOP
-            for (int j = startCol; j < endCol; j++) {
+            for (int j = startCol; j <= endCol; j++) {
                 System.out.print(matrics[startRow][j]);
             }
             //RIGHT
-            for (int i = startRow; i <= endRow; i++) {
+            for (int i = startRow+1; i <= endRow; i++) {
                 System.out.print(matrics[i][endCol]);
                 
             }
