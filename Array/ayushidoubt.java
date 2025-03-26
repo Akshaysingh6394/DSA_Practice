@@ -6,14 +6,14 @@ public class ayushidoubt {
             getMarks+=arr[i];
         }
         
-        int percent = (getMarks*100)/100;
+        int percent = (getMarks*100)/totalMarks;
         if(percent>33){
             return true;
         }
         return false;
     }
     public static void main(String[] args) {
-        int arr[] = {60,70,56,77,75};
+        int arr[] = {10,7,6,17,25};
         int n = arr.length;
         System.out.println(faipas(arr, n));
         
