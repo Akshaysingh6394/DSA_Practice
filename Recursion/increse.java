@@ -1,13 +1,17 @@
 package Recursion;
 
 public class increse {
-    public static void increseOrder(int n){
+    public static int increseOrder(int n){
         if(n==1){
-            System.out.println(1);
-            return;
+           System.out.println(1); 
+           return 1;
         }
-        increseOrder( n-1);
+        
+        int inc = increseOrder(n-1);
         System.out.print(n);
+        return inc;
+        
+
     }
     public static void main(String[] args) {
         int n = 10;
