@@ -6,8 +6,9 @@ public class ankit {
         //     System.out.println(i);
         // }
         // int a=5;
-        System.out.println(a++);
-        System.out.println(a);
+        // System.out.println(a++);
+        // System.out.println(a);
+        System.out.println(4^0);
       
     }
     
