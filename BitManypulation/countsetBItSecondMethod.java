@@ -7,7 +7,8 @@ public class countsetBItSecondMethod {
         int count = 0;
         while(n>0){
             count++;
-            n -= (n & -n);
+            // n -= (n & -n);
+            n = (n & n-1);
             
         }
         System.out.println(count);
