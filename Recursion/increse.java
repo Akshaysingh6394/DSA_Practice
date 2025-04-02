@@ -14,14 +14,16 @@ public class increse {
 
     // }
     public static void incre(int n){
-        if(n<1){
+        if(n==0){
             return;
         }
-        incre(n-1);
         System.out.println(n+" ");
+        incre(n-1);
+        incre(n-1);
+        
     }
     public static void main(String[] args) {
-        int n = 10;
+        int n = 3;
         incre(n);
     }
     
