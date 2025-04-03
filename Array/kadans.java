@@ -15,7 +15,7 @@ public class kadans {
     }
 
     public static void main(String[] args) {
-        int arr[] = {1,4,6,9,3,-2,4,-6};
+        int arr[] = {1,-3,2,-4,5};
         int n = arr.length;
         int maxsubArr = kadansAlgo(arr, n);
         System.out.println(maxsubArr);
