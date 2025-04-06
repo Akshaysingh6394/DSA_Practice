@@ -9,15 +9,11 @@ public class bset {
             System.out.print(curr);
             return;
         }
-
-        
         subset(arr, i + 1, curr);
         curr.add(arr[i]);
-
-
-
         subset(arr, i + 1, curr);
         
+
         curr.remove(curr.size() - 1); // Backtrack
     }
 
