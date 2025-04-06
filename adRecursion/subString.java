@@ -9,6 +9,7 @@ public class subString {
         char ch = up.charAt(0);
         subSe(p+ch, up.substring(1));
         subSe(p, up.substring(1));
+       
         
         
     }

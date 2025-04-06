@@ -10,12 +10,14 @@ public class bset {
             return;
         }
 
-        // Exclude the current element
+        
         subset(arr, i + 1, curr);
-
-        // Include the current element
         curr.add(arr[i]);
+
+
+
         subset(arr, i + 1, curr);
+        
         curr.remove(curr.size() - 1); // Backtrack
     }
 
