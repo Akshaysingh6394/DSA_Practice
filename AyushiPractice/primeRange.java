@@ -29,7 +29,7 @@ public class primeRange {
       
     }
     public static void main(String[] args) {
-        primeRang(24, 26);
+        primeRang(3, 26);
     }
     
 }
