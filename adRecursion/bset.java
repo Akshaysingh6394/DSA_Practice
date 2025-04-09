@@ -11,6 +11,7 @@ public class bset {
         }
         subset(arr, i + 1, curr);
         curr.add(arr[i]);
+        
         subset(arr, i + 1, curr);
         
 

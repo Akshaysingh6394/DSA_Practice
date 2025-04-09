@@ -16,11 +16,11 @@ public class duplicate {
         }
         int k = i+1;
        for (int j = 0; j < k; j++) {
-        System.out.println(arr[j]);
+        System.out.println(arr[i]);
         
        }
 
         
     }
-    
+    fo
 }
