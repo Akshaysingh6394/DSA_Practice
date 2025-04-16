@@ -13,10 +13,10 @@ public class CountSymmetric {
             int secHalf = 0;
             
             for(int j=0;j<len/2;j++){
-                leftHalf += str.charAt(j)-'0';
+                leftHalf += str.charAt(j);
             }
             for(int j=len/2;j<len;j++){
-                secHalf += str.charAt(j)-'0';
+                secHalf += str.charAt(j);
             }
             if(leftHalf==secHalf){
                 count++;
