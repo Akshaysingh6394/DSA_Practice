@@ -1,18 +1,15 @@
 
 public class clockwise {
     public static void clockwise(int arr[][]){
-        int k=2;
+        int k=arr.length-1;
         int n=arr.length;
         int m=arr[0].length;
         int temp[][] = new int[n][m];
         for (int i = 0; i <arr.length; i++) {
             for (int j = 0; j <arr[0].length; j++) {
-                temp[j][k] = arr[i][j];
-                
+                temp[j][k] = arr[i][j];   
             }
             k--;
-            
-           
         }
         for (int i = 0; i < temp.length; i++) {
             for (int j = 0; j < temp[0].length; j++) {
