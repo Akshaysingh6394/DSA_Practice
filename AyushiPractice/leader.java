@@ -11,10 +11,10 @@ public class leader {
             int largest = arr[i];
             int idx = i;
             for (int j =i+1; j < arr.length; j++) {
-            if(arr[j]>largest){
+                if(arr[j]>largest){
                 largest = arr[j]; 
                 idx = j;  
-            }
+                }
             }
            
         list.add(largest);
