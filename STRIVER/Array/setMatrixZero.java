@@ -30,17 +30,17 @@ public class setMatrixZero {
             }
             
         }
-        // if(fr){
-        //     for (int j = 0; j < m; j++) {
-        //         arr[0][j] = 0;
+        if(fr){
+            for (int j = 0; j < m; j++) {
+                arr[0][j] = 0;
                 
-        //     }
-        // }
-        // if(fc){
-        //     for (int i = 0; i < n; i++) {
-        //         arr[i][0] = 0;
-        //     }
-        // }
+            }
+        }
+        if(fc){
+            for (int i = 0; i < n; i++) {
+                arr[i][0] = 0;
+            }
+        }
 
     }
     public static void main(String[] args) {
