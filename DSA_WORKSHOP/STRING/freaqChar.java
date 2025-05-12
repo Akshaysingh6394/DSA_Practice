@@ -9,7 +9,7 @@ public class freaqChar{
         }
         for (int i = 0; i < 26; i++) {
             if(freaq[i]>0){
-                char ch = (char) (i+'a');
+                char ch =  (char) (i+'a');
                 System.out.println(ch +" "+freaq[i]);
             }
         }
