@@ -1,8 +1,8 @@
 
 import java.util.*;
 
-public class subset {
-    public static void subset(int arr[], int i, List<Integer> curr){
+public class Subset {
+    public static void subset(int arr[], int i, List<Integer> curr) {
         if (i == arr.length) {
             System.out.println(curr);
             return;
