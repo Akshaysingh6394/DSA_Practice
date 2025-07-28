@@ -118,9 +118,11 @@ public class build {
        // inOrder(root);
        //postOrder(root);
        //levelOrder(root);
-       //int total = height(root);
+       int total = height(root);
        //int total = countNode(root);
-       int total = sumBin(root);
+       
+       
+       //int total = sumBin(root);
        System.out.println(total);
     }
 }
