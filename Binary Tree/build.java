@@ -99,6 +99,16 @@ public class build {
         int rc = countNode(root.right);
         return lc+rc+1;
     }
+    public static int sumBin(Node root){
+        if(root == null) return 0;
+        int sum = 0;
+        // int leftSum = sumBin(root.left);
+        // int rightSum = sumBin(root.right);
+        sum += sumBin(root.left);
+        sum += sumBin(root.right);
+        return sum+root.data;
+
+    }
     public static void main(String[] args) {
         int nodes[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
         BinaryTree tree = new BinaryTree();
@@ -109,7 +119,8 @@ public class build {
        //postOrder(root);
        //levelOrder(root);
        //int total = height(root);
-       int total = countNode(root);
+       //int total = countNode(root);
+       int total = sumBin(root);
        System.out.println(total);
     }
 }
