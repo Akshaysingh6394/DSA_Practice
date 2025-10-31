@@ -1,6 +1,6 @@
 public class returnNumberBet {
     public static void main(String[] args) {
-        String str = "abcd";
+        String str = "1ab1cd11";
         int count = 0;
         String temp = "";
 
@@ -12,7 +12,10 @@ public class returnNumberBet {
             } else {
                 // When we hit a letter, check if there was a number before
                 if (!temp.isEmpty()) {
-                    count++;
+                    // Check previous and current both are letters
+                    if (i - temp.length() - 1 >= 0 && Character.isLetter(str.charAt(i - temp.length() - 1))) {
+                        count++;
+                    }
                     temp = "";
                 }
             }
